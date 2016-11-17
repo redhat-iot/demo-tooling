@@ -1,0 +1,13 @@
+{
+    "name": "rhel-7.3",
+    "description": "RHEL 7.3 configured for IoT demos",
+    "versions": [{
+        "version": "0.1.0",
+        "providers": [{
+                "name": "virtualbox",
+                "url": "http://redhat-iot.s3-website-us-east-1.amazonaws.com/rhel-7.3-vbox-0.1.0.box",
+                "checksum_type": "sha1",
+                "checksum": "b2750e5ac0910fcb7cbdff08f6df6f51c579340f"
+        }]
+    }]
+}
